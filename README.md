@@ -1,2 +1,2 @@
 # Warhammer-40k-test
-Test build
+Test build card game

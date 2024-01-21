@@ -1,0 +1,40 @@
+body {
+    background-image: url("./img/Warhammer_Imperium_of_Man_minimalism_white-1982473.png");
+}
+
+#introduction {
+    display: block;
+}
+
+#game {
+    display: none;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-row {
+    background-color: #F7CAC9;
+}
+
+.deck {
+    background-color: #92A8D1;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    background-color: black;
+    margin: 10px;
+    cursor: pointer;
+}
